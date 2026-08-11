@@ -11,7 +11,7 @@
 project = 'Motorola MC6800 Exhibitions'
 copyright = '2026, Andrew Shapton'
 author = 'Andrew Shapton'
-release = '0.'
+release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
