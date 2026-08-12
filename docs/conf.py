@@ -20,8 +20,22 @@ extensions = [
         'sphinx.ext.autosectionlabel',
         'sphinx_collapse',
         'sphinx_design',
-        'linuxdoc.rstFlatTable',]
+        'linuxdoc.rstFlatTable',
+        'sphinx.ext.intersphinx',]
 #        
+
+intersphinx_mapping = {
+    "mc6800collection": ("https://alshapton.github.io/MC6800Catalogue/", None),
+}
+
+# We recommend adding the following config value.
+# Sphinx defaults to automatically resolve *unresolved* labels using all your Intersphinx mappings.
+# This behavior has unintended side-effects, namely that documentations local references can
+# suddenly resolve to an external location.
+# See also:
+# https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#confval-intersphinx_disabled_reftypes
+intersphinx_disabled_reftypes = ["*"]
+
 
 autosectionlabel_prefix_document = True
 templates_path = ['_templates']
