@@ -13,4 +13,4 @@ These pages contain information and pictures about the exhibitions which the :re
    :maxdepth: 1
    :hidden:
 
-   source/VCF/VCFUK2026/index
+   source/VCF/VCFGB2026/index
